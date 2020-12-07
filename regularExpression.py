@@ -27,7 +27,7 @@ print("Showing the index where term1 is available at:",match.start())
 split_term='@'
 email='user@gmail.com'
 
-f"splitted,re.split(split_term,email)"
+print(re.split(split_term,email))
 
 
 

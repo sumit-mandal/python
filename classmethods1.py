@@ -1,4 +1,4 @@
-#class method can only use instance variable of the class
+#class method can only use instance varible of the class
 #We can access it from any instance or class
 
 class Employee:
@@ -22,5 +22,6 @@ har = Employee("Harry",255,"Instructor")
 roh = Employee("Rohan",455,"Student")
 
 har.change_leaves(34)
-
 print(har.no_of_leaves)
+
+print(har.printdetails())

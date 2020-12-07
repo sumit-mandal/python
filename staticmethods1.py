@@ -14,6 +14,7 @@ class Employee:
     @classmethod
     def change_leaves(cls, newleaves):
         cls.no_of_leaves = newleaves
+        return newleaves
 
     @classmethod
     def from_dash(cls, string):
@@ -27,4 +28,6 @@ harry = Employee("Harry", 255, "Instructor")
 rohan = Employee("Rohan", 455, "Student")
 karan = Employee.from_dash("Karan-480-Student")
 
-Employee.printgood("Rohan")
+Employee.printgood("shaziya")
+Employee.change_leaves(23)
+print(Employee.no_of_leaves)
