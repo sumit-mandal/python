@@ -1,10 +1,10 @@
 from abc import ABCMeta,abstractmethod
 
 class Customer(metaclass=ABCMeta):
-    def __init__(self,customer_name):
-        self.__customer_name=customer_name
+    def __init__(self,customer_name): #__init__ is constructor
+        self.__customer_name=customer_name #customer name isiliye likha qki ye is class k baahir b call hoga
         self.bill_amount=None
-        self.bill_id=None
+        self.bill_id=None #everything inside constructor is instnce variable
 
     def get_customer_name(self):
         return self.__customer_name
@@ -71,7 +71,7 @@ class RegularCustomer(Customer):
 a=RegularCustomer('sum',2)
 a.calculate_bill_amount()
 a.get_customer_name()
-b=OccasionalCustomer('bhau',10)
+b=OccasionalCustomer('bhau',3)
 b.get_customer_name()
 b.get_distance_in_kms()
 b.calculate_bill_amount()

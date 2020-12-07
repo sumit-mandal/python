@@ -20,5 +20,6 @@ class Rectangle(Shape):
 rect1 = Rectangle()
 print(rect1.printarea())
 
+
 # base class ke  andar  parent class k method ko implement krwaana hi padega, kaise b krke
 #shape class se agr inherit kr rhe hai to zaroori hai implement krwaana use function ko base class k andar
