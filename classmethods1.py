@@ -1,4 +1,4 @@
-#class method can only use instance varible of the class
+#class method can only use instance variable of the class
 #We can access it from any instance or class
 
 class Employee:
